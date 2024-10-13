@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4405635-f924-4247-b0ab-4e8b86992937" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns - GoF.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPS Basics" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/chainofresponsiblity/AuthenticationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/chainofresponsiblity/BaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/chainofresponsiblity/Chain Of Responsiblity.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/chainofresponsiblity/HTTPRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/chainofresponsiblity/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/chainofresponsiblity/LoggerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/chainofresponsiblity/VirusHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/command/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/command/commandframework/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/command/commandframework/CompositeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/command/commandframework/CreateUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/command/commandframework/KafkaProducerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/command/gui/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/command/server/CreateUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/command/server/KafkaProducerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/iterator/Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/iterator/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/iterator/NamesCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/mediator/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/mediator/Colleague.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/mediator/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/mediator/GearBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/mediator/InstrumentCluster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/mediator/Stand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/memento/EditorHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/memento/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/memento/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/memento/editor/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/memento/editor/EditorState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/observer/Observer Pattern.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/observer/push/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/observer/push/consumers/DieselGeneratorObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/observer/push/consumers/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/observer/push/consumers/UPSObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/observer/push/producers/Electricity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/observer/push/producers/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/observer/push/server/DieselGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/observer/push/server/UPS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/observer/raw/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/observer/raw/consumers/DieselGeneratorObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/observer/raw/consumers/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/observer/raw/consumers/UPSObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/observer/raw/producers/Electricity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/observer/raw/producers/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/observer/raw/server/DieselGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/observer/raw/server/UPS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/state/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/state/State Pattern.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/state/TVOFFRemoteButtonAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/state/TVONRemoteButtonAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/state/TVRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/state/TVRemoteButtonActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/state/TVVolumeUpRemoteButtonAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/strategy/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/strategy/ImageStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/strategy/Strategy Pattern.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/strategy/stratagies/strategy1/Compressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/strategy/stratagies/strategy1/JPEGCompressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/strategy/stratagies/strategy1/PNGCompressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/strategy/stratagies/strategy2/BlackAndWhiteFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/strategy/stratagies/strategy2/ContrastFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/strategy/stratagies/strategy2/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/templatemethod/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/templatemethod/Template Method Pattern.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/templatemethod/builder/CementHouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/templatemethod/builder/GlassHouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/templatemethod/builder/HouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/visitor/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/visitor/Visitor Pattern.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/visitor/element/DataType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/visitor/element/Integer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/visitor/element/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/visitor/element/String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/visitor/visitor/AddOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/visitor/visitor/QueueOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviouralpatterns/visitor/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/abstractfactory/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/abstractfactory/MonitorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/abstractfactory/MouseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/abstractfactory/PCFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/abstractfactory/monitor/AppleiMacMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/abstractfactory/monitor/DellMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/abstractfactory/monitor/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/abstractfactory/mouse/AppleMagicMouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/abstractfactory/mouse/LogitechMouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/abstractfactory/mouse/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/abstractfactory/pc/ApplePC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/abstractfactory/pc/DellPC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/abstractfactory/pc/HybridPCBuild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/abstractfactory/pc/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/builder/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/builder/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/builder/complexbuilder/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/builder/complexbuilder/HouseDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/builder/complexbuilder/housebuilders/BungalowHouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/builder/complexbuilder/housebuilders/HouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/builder/complexbuilder/housebuilders/RCHouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/IdentityProviderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/idp/AzureIdentityProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/idp/IdentityProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/idp/OktaIdentityProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/prototype/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/prototype/general/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/prototype/general/Shape2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/prototype/general/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/prototype/javaspecific/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/singleton/APIHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creationalpatterns/singleton/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/adapter/Cricle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/adapter/Shape2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/adapter/SquareAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/adapter/lib/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/adapter/lib/SquareShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/bridge/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/bridge/abstraction/AdvancedTVRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/bridge/abstraction/TVRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/bridge/hierarchy1/Remote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/bridge/hierarchy1/SonyTVRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/bridge/hierarchy2/RemoteDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/bridge/hierarchy2/ToshibaRemoteDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/composite/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/composite/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/composite/Composite.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/composite/CompositeComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/composite/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/composite/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/decorator/CloudDataSaveStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/decorator/EncryptedCloudDataSaveDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/decorator/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/decorator/LogCloudDataSaveStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/decorator/Stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/facade/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/facade/NotificationServiceFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/facade/notificationlib/AuthToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/facade/notificationlib/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/facade/notificationlib/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/facade/notificationlib/NotificationServiceAuthenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/flyweight/HowToUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/flyweight/bullet/Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/flyweight/bullet/BulletIntrinsic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/flyweight/bullet/BulletIntrinsicFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/flyweight/bullet/BulletType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/proxy/Ebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/proxy/EbookCacheProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralpatterns/proxy/HowToUse.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2mQmMy36s5Uw2ThSr2GzOwUjHuF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HowToUse.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.behaviouralpatterns.HowToUse.executor": "Run",
+    "Application.behaviouralpatterns.chainofresponsiblity.HowToUse.executor": "Run",
+    "Application.behaviouralpatterns.memento.HowToUse.executor": "Run",
+    "Application.behaviouralpatterns.observer.HowToUse.executor": "Run",
+    "Application.behaviouralpatterns.observer.push.HowToUse.executor": "Run",
+    "Application.behaviouralpatterns.state.HowToUse.executor": "Run",
+    "Application.behaviouralpatterns.template.HowToUse.executor": "Run",
+    "Application.creationalpatterns.prototype.HowToUse.executor": "Run",
+    "Application.structuralpatterns.decorator.HowToUse.executor": "Run",
+    "Application.structuralpatterns.flyweight.HowToUse.executor": "Run",
+    "Application.structuralpatterns.proxy.HowToUse.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/muthuraj-14527/Documents/Learn/Design Patterns - GoF/src/behaviouralpatterns/observer/push",
+    "onboarding.tips.debug.path": "/Users/muthuraj-14527/Documents/Learn/Design Patterns - GoF/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.26319817"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Markdown"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/behaviouralpatterns/observer/push" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.structuralpatterns.decorator.HowToUse">
+    <configuration name="HowToUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behaviouralpatterns.visitor.HowToUse" />
+      <module name="Design Patterns - GoF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behaviouralpatterns.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="behaviouralpatterns.chainofresponsiblity.HowToUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behaviouralpatterns.chainofresponsiblity.HowToUse" />
+      <module name="Design Patterns - GoF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behaviouralpatterns.chainofresponsiblity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="structuralpatterns.decorator.HowToUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structuralpatterns.decorator.HowToUse" />
+      <module name="Design Patterns - GoF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structuralpatterns.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="structuralpatterns.flyweight.HowToUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structuralpatterns.flyweight.HowToUse" />
+      <module name="Design Patterns - GoF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structuralpatterns.flyweight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="structuralpatterns.proxy.HowToUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structuralpatterns.proxy.HowToUse" />
+      <module name="Design Patterns - GoF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structuralpatterns.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.structuralpatterns.decorator.HowToUse" />
+        <item itemvalue="Application.structuralpatterns.proxy.HowToUse" />
+        <item itemvalue="Application.structuralpatterns.flyweight.HowToUse" />
+        <item itemvalue="Application.HowToUse" />
+        <item itemvalue="Application.behaviouralpatterns.chainofresponsiblity.HowToUse" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4405635-f924-4247-b0ab-4e8b86992937" name="Changes" comment="" />
+      <created>1727017132755</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727017132755</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/creationalpatterns/prototype/HowToUse.java</url>
+          <line>8</line>
+          <properties class="creationalpatterns.prototype.HowToUse" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/behaviouralpatterns/observer/raw/producers/Subject.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

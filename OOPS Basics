@@ -1,0 +1,152 @@
+--------------------------------------------------
+Coupling :
+--------------------------------------------------
+
+    Coupling Defines the degree on How much One Kind of a Object is dependent on other Kind of a Object.
+
+Tight Coupling :
+    Tight Coupling Refers to the System Where Modules are more dependent on other Classes (Concrete Implementation ),
+    rather than depending on Interface, And changes in one of its types will cause cascading changes in its references
+
+    Cons :
+    1) Leads to more maintenance.
+    2) Involves Unexpected Behaviour changes and compile time errors
+    3) Hard for Code Changes and Splitting up the modules
+
+Loose Coupling :
+    Loose Coupling Refers to the System Where Modules are dependent on the Interfaces rather than Dependent on its
+    Concrete Implementation This vouches for code maintenance, easier changes as the Implementations will always adhere
+    to the Contract in the Interface
+
+
+
+#######################################    ALWAYS CODE TO THE INTERFACE    #############################################
+
+--------------------------------------------------
+Encapsulation :
+--------------------------------------------------
+
+    Encapsulation is a Technique that organizes the Members ( State )  in a Object and the Methods ( behaviors ) that Operate on them to be
+    encapsulated within the Object.
+
+    Pros :
+    1) This will allow the state of the Object not to be changed by External Classes ( as member variables are private )
+    And only go through the provided  methods to operate on it which provides a layer of validation before changing the
+    Object's State
+    2) This provides a valid meaning in Object Oriented Programming ( Example , A Human has members ( legs, eyes ) has operations ( walk , see)
+    these operations and its association makes the entity a real object not depending on any external factors)
+
+--------------------------------------------------
+Abstraction :
+--------------------------------------------------
+
+    Abstraction speaks about the Classes to Only expose the necessary methods that client's going to use upon the Objects
+    from them, and always refrain from Exposing the Implementation details to the clients ( They don't care on it )
+
+    Ex :
+        Imagine a TV Remote contains thousand's of buttons which involves unrelated buttons to a user but those functions
+        are essential for operations of Remote. In those cases expose only the necessary method outside to the Clients
+        Not the implementation details
+
+    Pros :
+    1) Code Readability and Ease of Usage by third parties (or) Clients Classes
+
+--------------------------------------------------
+Inheritance :
+--------------------------------------------------
+
+    Inheritance is a main OOPS Principle Which allows the child to automatically inherit the member variables, methods
+    from the Parent Class ( Like Parent inheriting Wealth to their Child )
+
+    ```
+    public class Human extends Mammal{
+    ....
+    ....
+    }
+    ```
+
+    Inheritance contains ( IS - A  Relationship) Meaning ```Human``` is a ```Mammal```
+
+    Pros:
+        1) Inheritance automatically supplies the methods , member variables to their child helping with code rewrite,
+        reuse, Prefer Inheritance Only When the Child needs all of the things of Parent
+
+
+    Cons
+        2) When a Child only needs a Part of the Parents Features , They cannot inherit the small Part leading to the child
+        unnecessarily overriding all the inapplicable methods and writing as Empty methods ( This is being solved by Composition )
+
+--------------------------------------------------
+Composition :
+--------------------------------------------------
+
+    Unlike Inheritance which Inherits all the properties and functionalities to their child. Composition refers to a Bigger
+    Object made out of many smaller Objects
+
+     Look at the ChatGPT Copied Example for Composition
+
+     ```
+     // Define the Engine class
+     class Engine {
+         public void start() {
+             System.out.println("Engine started.");
+         }
+
+         public void stop() {
+             System.out.println("Engine stopped.");
+         }
+     }
+     ```
+
+     ```
+
+     // Define the Tires class
+     class Tires {
+         public void inflate() {
+             System.out.println("Tires inflated.");
+         }
+
+         public void deflate() {
+             System.out.println("Tires deflated.");
+         }
+     }
+     ```
+
+     ```
+     // The Car class is composed of Engine and Tires
+     class Car {
+         private Engine engine;
+         private Tires tires;
+
+         public Car() {
+             this.engine = new Engine();  // Composition: Car "has a" Engine
+             this.tires = new Tires();    // Composition: Car "has Tires"
+         }
+
+         public void drive() {
+             engine.start();
+             tires.inflate();
+             System.out.println("Car is driving.");
+         }
+
+         public void park() {
+             engine.stop();
+             tires.deflate();
+             System.out.println("Car is parked.");
+         }
+     }
+     ```
+
+     ```
+     // Main class to test the composition
+     public class Main {
+         public static void main(String[] args) {
+             // Creating a Car object
+             Car myCar =  new Car();
+             // Calling methods which is using composition
+             myCar.drive();
+             myCar.park();
+         }
+     }
+     ```
+
